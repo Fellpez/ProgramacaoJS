@@ -103,9 +103,11 @@ let camisa1 = "Camisa Amarela"
 let preco1 = 100
 let camisa2 = "Camisa Vermelha"
 let preco2 = 45
+let preço_conjunto = preco1 + preco2
 
 console.log ("O produto " + camisa1 + " custa R$ " + preco1)
 console.log ("O Produto " + camisa2 + " custa R$ " + preco2)
+console.log ("O valor total dos dois produtos é de R$ " + preço_conjunto)
 
 /*
 ### ----- Atividade 6:
@@ -218,10 +220,11 @@ Ao final, mostre o valor das duas variáveis na tela.
 
 */
 
-let aviao1 = 6
-let aviao2 = 9
+let aviao1 = 45
+let aviao2 = 42
 
 let aviao3 = aviao1
+
 aviao1 = aviao2
 aviao2 = aviao3
 
