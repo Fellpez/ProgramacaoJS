@@ -1,11 +1,10 @@
 // aula 04 converter variaveis
 
-let prompt = require("prompt-sync")()
+let prompt = require ("prompt-sync")()
 
 
 
 let numero1 = prompt ("Digite um número: ")
-numero1 = parseInt(numero1)
 
 let numero2 = parseInt ( prompt ("Digite outro número: ") )
 
@@ -15,7 +14,7 @@ console.log("A soma dos números é: " + soma)
 
 // --------------------------------------------------------------------------------
 
-let nascimento = prompt ("Digite sua data de nascimento: ")
+let nascimento = parseInt ( prompt ("Digite sua data de nascimento: "))
 let idade_atual = 2026 - nascimento
 console.log ("A sua idade atual é: " + idade_atual)
 
