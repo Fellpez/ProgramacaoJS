@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="hmtl" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML com Script</h1>
+    <p>Integrando JS em HTML.</p>
+    <button onclick = "mostrarMensagem()">Clique aqui</button>
+
+<hr/>
+
+    <p>Clique no botão</p>
+    <button onclick = "contarCliques()">Clique em mim.</button>
+
+    
+    <script>
+        
+        let cliques = 0
+        function contarCliques(){
+            cliques = cliques + 1
+            alert("Você clicou " + cliques + " vezes.");
+            
+            if (cliques == 10) {
+                alert("Você chegou no limite de cliques.")
+            }
+        }
+
+        function mostrarMensagem() {
+            console.log("Olá, mundo!");
+            console.log("Melhorando HTML com JS");
+            let resposta= prompt("Olá, tudo bem?");
+
+
+        if (resposta == "sim") {
+            alert("Que bom!");
+        } 
+        else {
+            alert("Que pena!");
+        }
+
+        }
+
+
+    </script>
+</body>
+</html>
