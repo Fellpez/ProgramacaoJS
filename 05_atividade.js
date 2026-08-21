@@ -68,6 +68,8 @@ Além dos cachorros-quentes, existe um **Combo**, formado por:
 
 let prompt = require("prompt-sync")()
 
+// CADASTRO DE INGREDIENTES
+
 console.log("========================================")
 console.log("CADASTRO DE PREÇOS - CONRADITO DOGUEZITO")
 console.log("========================================")
@@ -97,6 +99,15 @@ let lucro2 = cachorro_cremoso * porcentagem_lucro
 let lucro3 = cachorro_especial * porcentagem_lucro
 let lucro4 = dog_combo * porcentagem_lucro
 
+// CACHORROS QUENTE DISPONIVEIS
+
+let dog1 = "CACHORRO-QUENTE COM PURÊ"
+let dog2 = "CACHORRO-QUENTE CREMOSO"
+let dog3 = "CACHORRO-QUENTE ESPECIAL"
+let combo = "COMBO"
+
+// ------------------------------------------------------
+
 // COMEÇO DO SITE
 
 console.log("\n")
@@ -105,17 +116,14 @@ console.log("==========================================")
 console.log("CARDAPIO - CONRADITO DOGUEZITO")
 console.log("==========================================")
 
-// CACHORROS QUENTE DISPONIVEIS
-
-let dog1 = "CACHORRO-QUENTE COM PURÊ"
-let dog2 = "CACHORRO-QUENTE CREMOSO"
-let dog3 = "CACHORRO-QUENTE ESPECIAL"
-let combo = "COMBO"
 
 console.log("Lucro aplicado: " + porcentagem_lucro + "%")
 porcentagem_lucro = porcentagem_lucro / 100
 
+// ---------------------------------------
 console.log("\n")
+// ---------------------------------------
+
 console.log(dog1)
 console.log("Ingredientes: Pão, salsicha, pure de batata e bacon") 
 console.log("Preço de custo: " + cachorro_pure)
@@ -127,13 +135,19 @@ console.log("Ingredientes: Pão, 2 salsichas e queijo")
 console.log("Preço de custo: " + cachorro_cremoso)
 console.log("Lucro sobre venda: " + porcentagem_lucro * cachorro_cremoso)
 
+// ---------------------------------------
 console.log("\n")
+// ---------------------------------------
+
 console.log(dog3)
 console.log("Ingredientes: Pão, salsicha, pure de batata e queijo") 
 console.log("Preço de custo: " + cachorro_especial)
 console.log("Lucro sobre venda: " + porcentagem_lucro * cachorro_especial)
 
+// ---------------------------------------
 console.log("\n")
+// ---------------------------------------
+
 console.log(combo)
 console.log("Itens inclusos: " + dog1 +", "+ dog2 +", "+ dog3) 
 console.log("Preço de custo: " + dog_combo)

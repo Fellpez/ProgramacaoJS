@@ -8,9 +8,11 @@ if (time1 > time2) {
 }
 
 
-else {
+if(time2 > time1) {
     console.log("O time 2 venceu a partida.")
 }
 
 
-// ??
+if(time1 == time2){
+    console.log("Empate")
+}
